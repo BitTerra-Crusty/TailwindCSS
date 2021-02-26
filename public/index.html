@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-700 bg-gray-100">
+    <div>
+       <div >
+           <!--navbar-->
+           <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+              <span class="font-bold font-header text-xl text-green-500">MyHouse</span>
+            </div>
+      
+            <div class="w-full block flex-grow sm:flex sm:items-center sm:w-auto">
+              <div class="text-sm sm:flex-grow">
+                <a
+                  href="#"
+                  class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+                >
+                  Home
+                </a>
+                <a
+                  href="#"
+                  class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+                >
+                  Contact
+                </a>
+                <a
+                  href="#"
+                  class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white"
+                >
+                  About
+                </a>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-500 hover:bg-white mt-4 md:mt-0"
+                  >Login</a
+                >
+              </div>
+            </div>
+          </nav>
+
+       </div> 
+       <main class="px-16 py-6">
+           <header>
+               <h2 class="text-5xl font-semibold">Houses</h2>
+               <h3 class="text-xl text-gray-500 font-semibold">For customers</h3>
+           </header>
+           <div>
+               <h4 class="font-bold mt-12 pb-2 border-b border-green-200">Latest houses</h4>
+               <div class="mt-8 grid lg:grid-cols-3 gap-10">
+                   <!--Cards-->
+                   <div class="card cursor-pointer sm:mt-3">
+                       <img src="img/myhouse5.jpg" alt="pretoria house" class="w-full h-32 sm:h-48 object-cover">
+                       <div class="m-4">
+                           <span class="font-bold">2 Bedroom House</span>
+                           <span class="block text-gray-500">Pretoria</span>
+                       </div>
+                       <div class="badge">
+                           <span>R3000 000</span>
+                       </div>
+                   </div>
+
+                   <!--Card -->
+                   <div class="card cursor-pointer sm:mt-3">
+                    <img src="img/house6.jpg" alt="pretoria house" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">4 Bedroom House</span>
+                        <span class="block text-gray-500">Johannesburg</span>
+                    </div>
+                    <div class="badge">
+                        <span>R2000 000</span>
+                    </div>
+                </div>
+
+                <!--Card -->
+                <div class="card cursor-pointer sm:mt-3">
+                    <img src="img/house7.jpg" alt="pretoria house" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">3 Bedroom House</span>
+                        <span class="block text-gray-500">Featherwood</span>
+                    </div>
+                    <div class="badge">
+                        <span>R1,2000 000</span>
+                    </div>
+                </div>
+               </div>
+
+               <h4 class="font-bold mt-12 pb-2 border-b border-green-200">popular houses</h4>
+               <div class="mt-8">
+                <!--Cards-->
+                <div class="card cursor-pointer mt-3">
+                    <img src="img/house8.jpg" alt="pretoria house" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">2 Bedroom House</span>
+                        <span class="block text-gray-500">Pretoria west</span>
+                    </div>
+                    <div class="badge">
+                        <span>R4,5000 000</span>
+                    </div>
+                </div>
+
+                 <!--Card-->
+                 <div class="card cursor-pointer mt-3">
+                    <img src="img/house10.jpg" alt="pretoria house" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">5 Bedroom House</span>
+                        <span class="block text-gray-500">Germiston</span>
+                    </div>
+                    <div class="badge">
+                        <span>R3000 000</span>
+                    </div>
+                </div>
+
+                 <!--Card-->
+                 <div class="card cursor-pointer mt-3">
+                    <img src="img/house9.jpg" alt="pretoria house" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">5 Bedroom House</span>
+                        <span class="block text-gray-500">Pretoria mamelodi</span>
+                    </div>
+                    <div class="badge">
+                        <span>R3,5000 000</span>
+                    </div>
+                </div>
+
+                <!--Load-->
+                <div class="flex justify-center cursor-pointer mt-4">
+                    <div class="bg-blue-300 text-blue-500 px-6 py-3 hover:bg-blue-400 block hover:text-white shadow-lg">Load more</div>
+                </div>
+            </div>
+
+           </div>
+       </main>
+    </div>
+</body>
+</html>
